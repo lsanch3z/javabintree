@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ASNOcF2rEeWqj85dDJbWag" name="BinTreeLs2">
+    <eAnnotations xmi:id="_AWobcF2rEeWqj85dDJbWag" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_AWpCgF2rEeWqj85dDJbWag" source="codegen">
+        <details xmi:id="_AWpCgV2rEeWqj85dDJbWag" key="codegenDirectory" value="/BinTreeLs/src"/>
+        <details xmi:id="_Ag1gUF2rEeWqj85dDJbWag" key="AssociatedSourceCode" value="/BinTreeLs/src/binTree/BinaryTree.java;2709310189/1;/BinTreeLs/src/binTree/BinaryTreeTest.java;2361459296/1;/BinTreeLs/src/binTree/Node.java;1786555720/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_AdR2AF2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_AdR2AV2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_AdR2Al2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_AdR2A12rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_AdSdEF2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_AdSdEV2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_AdSdEl2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_AdSdE12rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_AdTrMF2rEeWqj85dDJbWag">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AdfRYF2rEeWqj85dDJbWag" name="binTree">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ad1PoF2rEeWqj85dDJbWag" name="BinaryTree">
+        <ownedComment xmi:id="_AejoYF2rEeWqj85dDJbWag">
+          <body>&#xD;
+BinaryTree class allows a node to be inserted and the tree to be displayed in order via the treewalk method. &#xD;
+It has a root node that acts like a pointer so it can always have access to the first node that is inserted&#xD;
+@author Leonel Sanchez&#xD;
+@version 1.0</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_AebskF2rEeWqj85dDJbWag" name="rootNode" visibility="package" type="_AeA10F2rEeWqj85dDJbWag" association="_AemEoF2rEeWqj85dDJbWag"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AehMIF2rEeWqj85dDJbWag" name="isEmpty" specification="_Ad4S8F2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AehMIV2rEeWqj85dDJbWag" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//checks to see if tree is empty&#xD;
+			if(rootNode==null)&#xD;
+				return true;&#xD;
+			else &#xD;
+				return false;&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AehzMF2rEeWqj85dDJbWag" name="insertNode" specification="_AeXbIF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AehzMV2rEeWqj85dDJbWag" name="newNode" type="_AeA10F2rEeWqj85dDJbWag"/>
+          <language>java</language>
+          <body>if(rootNode==null)&#xD;
+			{&#xD;
+				rootNode = newNode;&#xD;
+			}&#xD;
+			else&#xD;
+			{&#xD;
+				Node currentNode = rootNode;&#xD;
+				Node parentNode;&#xD;
+				&#xD;
+				while(true)&#xD;
+				{&#xD;
+					parentNode = currentNode;&#xD;
+					if(newNode.key &lt; currentNode.key)&#xD;
+					{&#xD;
+						currentNode = currentNode.leftNode;&#xD;
+						&#xD;
+						if(currentNode == null)&#xD;
+						{&#xD;
+							parentNode.leftNode = newNode;&#xD;
+							return;&#xD;
+						}&#xD;
+					}&#xD;
+					else&#xD;
+					{&#xD;
+						currentNode = currentNode.rightNode;&#xD;
+					&#xD;
+						if(currentNode == null)&#xD;
+						{&#xD;
+							parentNode.rightNode = newNode;&#xD;
+							return;&#xD;
+						}&#xD;
+					}&#xD;
+				}&#xD;
+		&#xD;
+			}&#xD;
+		&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AehzMl2rEeWqj85dDJbWag" name="treeWalk" specification="_Ad46AF2rEeWqj85dDJbWag">
+          <language>java</language>
+          <body>this.inOrder(this.rootNode);&#xD;
+			&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AeiaQF2rEeWqj85dDJbWag" name="inOrder" specification="_AeYCMF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AeiaQV2rEeWqj85dDJbWag" name="root" type="_AeA10F2rEeWqj85dDJbWag"/>
+          <language>java</language>
+          <body>//recursive method to print out the nodes in ascending order&#xD;
+			if(root!=null)&#xD;
+			{&#xD;
+				inOrder(root.leftNode);&#xD;
+				System.out.print(root.key);&#xD;
+				System.out.print(&quot; &quot;);&#xD;
+				inOrder(root.rightNode);&#xD;
+			}&#xD;
+			&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Ad4S8F2rEeWqj85dDJbWag" name="isEmpty" method="_AehMIF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_Ad4S8V2rEeWqj85dDJbWag" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Ad46AF2rEeWqj85dDJbWag" name="treeWalk" method="_AehzMl2rEeWqj85dDJbWag"/>
+        <ownedOperation xmi:id="_AeXbIF2rEeWqj85dDJbWag" name="insertNode" method="_AehzMF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AeXbIV2rEeWqj85dDJbWag" name="newNode" type="_AeA10F2rEeWqj85dDJbWag"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_AeYCMF2rEeWqj85dDJbWag" name="inOrder" visibility="private" method="_AeiaQF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AeYCMV2rEeWqj85dDJbWag" name="root" type="_AeA10F2rEeWqj85dDJbWag"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ad9ygF2rEeWqj85dDJbWag" name="BinaryTreeTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AeiaQl2rEeWqj85dDJbWag" name="main" specification="_Ad_nsF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AeiaQ12rEeWqj85dDJbWag" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AeiaRF2rEeWqj85dDJbWag" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+&#xD;
+		// testcase 2&#xD;
+				System.out.println();&#xD;
+				System.out.println(&quot;testcase 1:&quot;);&#xD;
+				BinaryTree binTree2 = new BinaryTree();&#xD;
+				System.out.println(binTree2.isEmpty());&#xD;
+				binTree2.insertNode(new Node(3));&#xD;
+				binTree2.insertNode(new Node(1));&#xD;
+				binTree2.insertNode(new Node(60));&#xD;
+				binTree2.insertNode(new Node(30));&#xD;
+				binTree2.insertNode(new Node(45));			&#xD;
+				System.out.println(binTree2.isEmpty());&#xD;
+				binTree2.treeWalk();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Ad_nsF2rEeWqj85dDJbWag" name="main" isStatic="true" method="_AeiaQl2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_Ad_nsV2rEeWqj85dDJbWag" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AeAOwF2rEeWqj85dDJbWag" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AeA10F2rEeWqj85dDJbWag" name="Node">
+        <ownedComment xmi:id="_AejoYV2rEeWqj85dDJbWag">
+          <body>class node that has left and right nodes that point to another node and takes an integer value&#xD;
+Outside the BinaryTree class allowing a Node object to be declared outside of the BinaryTree class&#xD;
+@author Leonel Sanchez&#xD;
+@version 1.0</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_AedhwF2rEeWqj85dDJbWag" name="leftNode" type="_AeA10F2rEeWqj85dDJbWag" association="_Aen50V2rEeWqj85dDJbWag"/>
+        <ownedAttribute xmi:id="_AeeI0V2rEeWqj85dDJbWag" name="rightNode" type="_AeA10F2rEeWqj85dDJbWag" association="_AeqWEF2rEeWqj85dDJbWag"/>
+        <ownedAttribute xmi:id="_AefW8F2rEeWqj85dDJbWag" name="key">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AejBUF2rEeWqj85dDJbWag" name="Node" specification="_AeDSEF2rEeWqj85dDJbWag">
+          <ownedParameter xmi:id="_AejBUV2rEeWqj85dDJbWag" name="key">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_AejBUl2rEeWqj85dDJbWag" type="_AeA10F2rEeWqj85dDJbWag" direction="return"/>
+          <language>java</language>
+          <body>//constructor&#xD;
+		this.key = key;&#xD;
+		this.leftNode = null;&#xD;
+		this.rightNode = null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AeDSEF2rEeWqj85dDJbWag" name="Node" method="_AejBUF2rEeWqj85dDJbWag">
+          <eAnnotations xmi:id="_AeD5IF2rEeWqj85dDJbWag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_AeD5IV2rEeWqj85dDJbWag" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_AeDSEV2rEeWqj85dDJbWag" name="key">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_AeD5Il2rEeWqj85dDJbWag" type="_AeA10F2rEeWqj85dDJbWag" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_AemEoF2rEeWqj85dDJbWag" name="" memberEnd="_AemEoV2rEeWqj85dDJbWag _AebskF2rEeWqj85dDJbWag">
+        <ownedEnd xmi:id="_AemEoV2rEeWqj85dDJbWag" name="" type="_Ad1PoF2rEeWqj85dDJbWag" association="_AemEoF2rEeWqj85dDJbWag"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Aen50V2rEeWqj85dDJbWag" name="" memberEnd="_Aen50l2rEeWqj85dDJbWag _AedhwF2rEeWqj85dDJbWag">
+        <ownedEnd xmi:id="_Aen50l2rEeWqj85dDJbWag" name="" type="_AeA10F2rEeWqj85dDJbWag" association="_Aen50V2rEeWqj85dDJbWag"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_AeqWEF2rEeWqj85dDJbWag" name="" memberEnd="_AeqWEV2rEeWqj85dDJbWag _AeeI0V2rEeWqj85dDJbWag">
+        <ownedEnd xmi:id="_AeqWEV2rEeWqj85dDJbWag" name="" type="_AeA10F2rEeWqj85dDJbWag" association="_AeqWEF2rEeWqj85dDJbWag"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_AWqQoF2rEeWqj85dDJbWag">
+      <eAnnotations xmi:id="_AWtT8F2rEeWqj85dDJbWag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_AWvwMF2rEeWqj85dDJbWag" base_Package="_ASNOcF2rEeWqj85dDJbWag">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AecToF2rEeWqj85dDJbWag" base_Element="_AebskF2rEeWqj85dDJbWag"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AeeI0F2rEeWqj85dDJbWag" base_Element="_AedhwF2rEeWqj85dDJbWag"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Aeev4F2rEeWqj85dDJbWag" base_Element="_AeeI0V2rEeWqj85dDJbWag"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Aef-AF2rEeWqj85dDJbWag" base_Element="_AefW8F2rEeWqj85dDJbWag"/>
+  <UMLLabProfile:Reference xmi:id="_Aen50F2rEeWqj85dDJbWag" base_Element="_AemEoF2rEeWqj85dDJbWag"/>
+  <UMLLabProfile:Reference xmi:id="_AepvAF2rEeWqj85dDJbWag" base_Element="_Aen50V2rEeWqj85dDJbWag"/>
+  <UMLLabProfile:Reference xmi:id="_AerkMF2rEeWqj85dDJbWag" base_Element="_AeqWEF2rEeWqj85dDJbWag"/>
+</xmi:XMI>

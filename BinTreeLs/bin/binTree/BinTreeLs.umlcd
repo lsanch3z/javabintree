@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_XIiwQFzrEeWoe8E9xJMmJw">
+  <modelElement href="BinTreeLs.uml#_XVcj0FzrEeWoe8E9xJMmJw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_XXhAYVzrEeWoe8E9xJMmJw" targetItem="_XXjcqVzrEeWoe8E9xJMmJw" sourceItem="_XXhAYFzrEeWoe8E9xJMmJw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XXjcoFzrEeWoe8E9xJMmJw" sourceAnchor="223.0,16.0" targetAnchor="0.0,69.0" target="_XXt0sFzrEeWoe8E9xJMmJw" source="_XXjcqVzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XVxT8FzrEeWoe8E9xJMmJw"/>
+    <stereotypes xmi:id="_XXjcoVzrEeWoe8E9xJMmJw" name="Reference">
+      <modelElement href="BinTreeLs.uml#_XVx7AFzrEeWoe8E9xJMmJw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XXjcolzrEeWoe8E9xJMmJw" text="">
+      <visualProperties xmi:id="_Xe3lkFzrEeWoe8E9xJMmJw" position="8.110358436682873,-15.256044732755832"/>
+    </nameVisual>
+    <sourceRole xmi:id="_XXjco1zrEeWoe8E9xJMmJw" aggregationKind="NONE" name="">
+      <modelElement href="BinTreeLs.uml#_XVxT8VzrEeWoe8E9xJMmJw"/>
+      <visualProperties xmi:id="_Xe2XcFzrEeWoe8E9xJMmJw" position="45.51914968923245,-32.83834702483545"/>
+      <visibility xmi:id="_XXjcpFzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXjcpVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XXjcplzrEeWoe8E9xJMmJw" aggregationKind="NONE" name="rootNode" navigable="true">
+      <modelElement href="BinTreeLs.uml#_XVsbcFzrEeWoe8E9xJMmJw"/>
+      <visualProperties xmi:id="_Xe3lkVzrEeWoe8E9xJMmJw" position="-39.468184831150154,-33.274032438737024"/>
+      <stereotypes xmi:id="_F5qM8FzsEeWoe8E9xJMmJw" name="LegacyStyledElement">
+        <modelElement href="BinTreeLs.uml#_XVtCgFzrEeWoe8E9xJMmJw"/>
+      </stereotypes>
+      <visibility xmi:id="_XXjcp1zrEeWoe8E9xJMmJw" label="~"/>
+      <cardinality xmi:id="_XXjcqFzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XXpjQFzrEeWoe8E9xJMmJw" sourceAnchor="79.0,0.0" targetAnchor="0.0,26.0" target="_XXt0sFzrEeWoe8E9xJMmJw" source="_XXt0sFzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XVx7AVzrEeWoe8E9xJMmJw"/>
+    <bendpoints xmi:id="_Xe0iQFzrEeWoe8E9xJMmJw" sourceY="-77" targetX="79" targetY="-103"/>
+    <bendpoints xmi:id="_Xe0iQVzrEeWoe8E9xJMmJw" sourceX="-117" sourceY="-77" targetX="-38" targetY="-103"/>
+    <bendpoints xmi:id="_Xe1JUFzrEeWoe8E9xJMmJw" sourceX="-117" sourceY="26" targetX="-38"/>
+    <stereotypes xmi:id="_XXrYc1zrEeWoe8E9xJMmJw" name="Reference">
+      <modelElement href="BinTreeLs.uml#_XVyiEFzrEeWoe8E9xJMmJw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XXrYcFzrEeWoe8E9xJMmJw" text="">
+      <visualProperties xmi:id="_Xe6B0FzrEeWoe8E9xJMmJw" position="18.5,-8.999999999999972"/>
+    </nameVisual>
+    <sourceRole xmi:id="_XXrYcVzrEeWoe8E9xJMmJw" aggregationKind="NONE" name="">
+      <modelElement href="BinTreeLs.uml#_XVx7AlzrEeWoe8E9xJMmJw"/>
+      <visualProperties xmi:id="_Xe4zsFzrEeWoe8E9xJMmJw" position="-19.5,-73.99999999999997"/>
+      <visibility xmi:id="_XXsmkFzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXr_glzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XXrYclzrEeWoe8E9xJMmJw" aggregationKind="NONE" name="leftNode" navigable="true">
+      <modelElement href="BinTreeLs.uml#_XVtpkFzrEeWoe8E9xJMmJw"/>
+      <visualProperties xmi:id="_Xe6B0VzrEeWoe8E9xJMmJw" position="-107.0,-49.49999999999994"/>
+      <stereotypes xmi:id="_F5spMFzsEeWoe8E9xJMmJw" name="LegacyStyledElement">
+        <modelElement href="BinTreeLs.uml#_XVuQoFzrEeWoe8E9xJMmJw"/>
+      </stereotypes>
+      <visibility xmi:id="_XXsmklzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXsmkVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_XXqKUFzrEeWoe8E9xJMmJw" sourceAnchor="92.0,0.0" targetAnchor="0.0,39.0" target="_XXt0sFzrEeWoe8E9xJMmJw" source="_XXt0sFzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XVyiEVzrEeWoe8E9xJMmJw"/>
+    <bendpoints xmi:id="_Xe1wYFzrEeWoe8E9xJMmJw" sourceY="-168" targetX="92" targetY="-207"/>
+    <bendpoints xmi:id="_Xe1wYVzrEeWoe8E9xJMmJw" sourceX="-221" sourceY="-168" targetX="-129" targetY="-207"/>
+    <bendpoints xmi:id="_Xe1wYlzrEeWoe8E9xJMmJw" sourceX="-221" sourceY="39" targetX="-129"/>
+    <stereotypes xmi:id="_XXr_gVzrEeWoe8E9xJMmJw" name="Reference">
+      <modelElement href="BinTreeLs.uml#_XVzJIFzrEeWoe8E9xJMmJw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_XXrYdFzrEeWoe8E9xJMmJw" text="">
+      <visualProperties xmi:id="_Xe8eEFzrEeWoe8E9xJMmJw" position="161.5,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_XXrYdVzrEeWoe8E9xJMmJw" aggregationKind="NONE" name="">
+      <modelElement href="BinTreeLs.uml#_XVyiElzrEeWoe8E9xJMmJw"/>
+      <visualProperties xmi:id="_Xe7P8FzrEeWoe8E9xJMmJw" position="-20.0,-127.5"/>
+      <visibility xmi:id="_XXsmlVzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXsmlFzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_XXr_gFzrEeWoe8E9xJMmJw" aggregationKind="NONE" name="rightNode" navigable="true">
+      <modelElement href="BinTreeLs.uml#_XVuQoVzrEeWoe8E9xJMmJw"/>
+      <visualProperties xmi:id="_Xe9FIFzrEeWoe8E9xJMmJw" position="-73.5,3.999999999999986"/>
+      <stereotypes xmi:id="_F5tQQFzsEeWoe8E9xJMmJw" name="LegacyStyledElement">
+        <modelElement href="BinTreeLs.uml#_XVuQolzrEeWoe8E9xJMmJw"/>
+      </stereotypes>
+      <visibility xmi:id="_XXsml1zrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXsmllzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_XXqKUlzrEeWoe8E9xJMmJw" targetItem="_XXt0sFzrEeWoe8E9xJMmJw" sourceItem="_XXqKUVzrEeWoe8E9xJMmJw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_XXhAYFzrEeWoe8E9xJMmJw" sourceConnectionVisual="_XXhAYVzrEeWoe8E9xJMmJw" text="&#xD;&#xA;BinaryTree class allows a node to be inserted and the tree to be displayed in order via the treewalk method. &#xD;&#xA;It has a root node that acts like a pointer so it can always have access to the first node that is inserted&#xD;&#xA;@author Leonel Sanchez&#xD;&#xA;@version 1.0" item="_XXjcqVzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XVwF1lzrEeWoe8E9xJMmJw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_XXqKUVzrEeWoe8E9xJMmJw" sourceConnectionVisual="_XXqKUlzrEeWoe8E9xJMmJw" text="class node that has left and right nodes that point to another node and takes an integer value&#xD;&#xA;Outside the BinaryTree class allowing a Node object to be declared outside of the BinaryTree class&#xD;&#xA;@author Leonel Sanchez&#xD;&#xA;@version 1.0" item="_XXt0sFzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XVwF11zrEeWoe8E9xJMmJw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XXjcqVzrEeWoe8E9xJMmJw" comments="_XXhAYFzrEeWoe8E9xJMmJw" targetConnectionVisual="_XXhAYVzrEeWoe8E9xJMmJw" name="BinaryTree" associationsOut="_XXjcoFzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XVfnIFzrEeWoe8E9xJMmJw"/>
+    <visualProperties xmi:id="_XXjcqlzrEeWoe8E9xJMmJw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_XXjcq1zrEeWoe8E9xJMmJw" label="+"/>
+    <attributes xmi:id="_XXjcrFzrEeWoe8E9xJMmJw" name="rootNode">
+      <modelElement href="BinTreeLs.uml#_XVsbcFzrEeWoe8E9xJMmJw"/>
+      <stereotypes xmi:id="_F5w6oFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_F5xhsFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_F51zIFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_XXjcrlzrEeWoe8E9xJMmJw" label="~"/>
+      <cardinality xmi:id="_XXjcr1zrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <type xmi:id="_XXjcsFzrEeWoe8E9xJMmJw" name="Node">
+        <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_XXjcsVzrEeWoe8E9xJMmJw" name="isEmpty">
+      <modelElement href="BinTreeLs.uml#_XVgOMFzrEeWoe8E9xJMmJw"/>
+      <visibility xmi:id="_XXjcslzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXjcs1zrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XXjctFzrEeWoe8E9xJMmJw">
+        <modelElement href="BinTreeLs.uml#_XVgOMVzrEeWoe8E9xJMmJw"/>
+        <type xmi:id="_XXjctVzrEeWoe8E9xJMmJw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_XXjctlzrEeWoe8E9xJMmJw" name="treeWalk">
+      <modelElement href="BinTreeLs.uml#_XVg1QFzrEeWoe8E9xJMmJw"/>
+      <visibility xmi:id="_XXjct1zrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXjcuFzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_XXjcuVzrEeWoe8E9xJMmJw" name="insertNode">
+      <modelElement href="BinTreeLs.uml#_XVp_MFzrEeWoe8E9xJMmJw"/>
+      <visibility xmi:id="_XXjculzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXjcu1zrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_XXjcvFzrEeWoe8E9xJMmJw" name="newNode">
+        <modelElement href="BinTreeLs.uml#_XVp_MVzrEeWoe8E9xJMmJw"/>
+        <cardinality xmi:id="_XXjcvVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+        <type xmi:id="_XXjcvlzrEeWoe8E9xJMmJw" name="Node">
+          <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_XXjcv1zrEeWoe8E9xJMmJw" name="inOrder">
+      <modelElement href="BinTreeLs.uml#_XVp_MlzrEeWoe8E9xJMmJw"/>
+      <visibility xmi:id="_XXjcwFzrEeWoe8E9xJMmJw" label="-"/>
+      <cardinality xmi:id="_XXjcwVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_XXjcwlzrEeWoe8E9xJMmJw" name="root">
+        <modelElement href="BinTreeLs.uml#_XVp_M1zrEeWoe8E9xJMmJw"/>
+        <cardinality xmi:id="_XXjcw1zrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+        <type xmi:id="_XXjcxFzrEeWoe8E9xJMmJw" name="Node">
+          <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XXoVIFzrEeWoe8E9xJMmJw" name="BinaryTreeTest">
+    <modelElement href="BinTreeLs.uml#_XViDYFzrEeWoe8E9xJMmJw"/>
+    <visualProperties xmi:id="_XXoVIVzrEeWoe8E9xJMmJw" position="46.0,209.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_XXoVIlzrEeWoe8E9xJMmJw" label="+"/>
+    <operations xmi:id="_XXoVI1zrEeWoe8E9xJMmJw" name="main" staticOperation="true">
+      <modelElement href="BinTreeLs.uml#_XViDYVzrEeWoe8E9xJMmJw"/>
+      <visibility xmi:id="_XXoVJFzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXoVJVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_XXoVJlzrEeWoe8E9xJMmJw" name="args">
+        <modelElement href="BinTreeLs.uml#_XViDYlzrEeWoe8E9xJMmJw"/>
+        <cardinality xmi:id="_XXoVJ1zrEeWoe8E9xJMmJw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_XXoVKFzrEeWoe8E9xJMmJw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XXt0sFzrEeWoe8E9xJMmJw" comments="_XXqKUVzrEeWoe8E9xJMmJw" targetConnectionVisual="_XXqKUlzrEeWoe8E9xJMmJw" name="Node" associationsIn="_XXpjQFzrEeWoe8E9xJMmJw _XXqKUFzrEeWoe8E9xJMmJw _XXjcoFzrEeWoe8E9xJMmJw" associationsOut="_XXpjQFzrEeWoe8E9xJMmJw _XXqKUFzrEeWoe8E9xJMmJw">
+    <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+    <visualProperties xmi:id="_XXt0sVzrEeWoe8E9xJMmJw" position="305.0,-23.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_XXt0slzrEeWoe8E9xJMmJw" label="+"/>
+    <attributes xmi:id="_XXt0s1zrEeWoe8E9xJMmJw" name="leftNode">
+      <modelElement href="BinTreeLs.uml#_XVtpkFzrEeWoe8E9xJMmJw"/>
+      <stereotypes xmi:id="_F5yv0FzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_F5z98FzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_F52aMFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_XXt0tVzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXt0tlzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <type xmi:id="_XXt0t1zrEeWoe8E9xJMmJw" name="Node">
+        <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XXt0uFzrEeWoe8E9xJMmJw" name="rightNode">
+      <modelElement href="BinTreeLs.uml#_XVuQoVzrEeWoe8E9xJMmJw"/>
+      <stereotypes xmi:id="_F50lAFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_F51MEFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_F53BQFzsEeWoe8E9xJMmJw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_XXt0ulzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXt0u1zrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <type xmi:id="_XXt0vFzrEeWoe8E9xJMmJw" name="Node">
+        <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XXt0vVzrEeWoe8E9xJMmJw" name="key">
+      <modelElement href="BinTreeLs.uml#_XVuQo1zrEeWoe8E9xJMmJw"/>
+      <stereotypes xmi:id="_XXt0vlzrEeWoe8E9xJMmJw" name="LegacyStyledElement">
+        <modelElement href="BinTreeLs.uml#_XVu3sFzrEeWoe8E9xJMmJw"/>
+      </stereotypes>
+      <visibility xmi:id="_XXt0v1zrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXt0wFzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <type xmi:id="_XXt0wVzrEeWoe8E9xJMmJw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_XXt0wlzrEeWoe8E9xJMmJw" name="Node">
+      <modelElement href="BinTreeLs.uml#_XVjRgFzrEeWoe8E9xJMmJw"/>
+      <keywords xmi:id="_XXt0w1zrEeWoe8E9xJMmJw" keyword="create"/>
+      <visibility xmi:id="_XXt0xFzrEeWoe8E9xJMmJw" label="+"/>
+      <cardinality xmi:id="_XXt0xVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XXt0xlzrEeWoe8E9xJMmJw">
+        <modelElement href="BinTreeLs.uml#_XVj4k1zrEeWoe8E9xJMmJw"/>
+        <type xmi:id="_XXt0x1zrEeWoe8E9xJMmJw" name="Node">
+          <modelElement href="BinTreeLs.uml#_XViqcVzrEeWoe8E9xJMmJw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_XXt0yFzrEeWoe8E9xJMmJw" name="key">
+        <modelElement href="BinTreeLs.uml#_XVj4kFzrEeWoe8E9xJMmJw"/>
+        <cardinality xmi:id="_XXt0yVzrEeWoe8E9xJMmJw" label="1" max="1" min="1"/>
+        <type xmi:id="_XXt0ylzrEeWoe8E9xJMmJw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
